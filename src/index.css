@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply w-full h-screen bg-gradient-to-b from-fuchsia-700 to-violet-800 bg-cover bg-no-repeat font-sans flex flex-col pt-10 items-center
+}
